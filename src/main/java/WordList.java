@@ -21,9 +21,11 @@ public class WordList
 
   public void removeWordsOfLength(int len)
   {
+    ArrayList<String> newArr = new ArrayList<String>();
     for (int i = 0; i < myList.size(); i++){
-      if()
+      if(newArr.get(i).length() == len){
+        newArr.remove(i);
+      }
     }
-
   }
 }
